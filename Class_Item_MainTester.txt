@@ -2,9 +2,11 @@ package software;
 
 import java.util.Scanner;
 
-public class productTest {
+public class productTest 
+{
 
-	public static void main(String[] args) {
+	public static void main(String[] args) 
+	{
 	
 		Scanner sc=new Scanner(System.in);
 		System.out.println("enter the new product details:");
@@ -14,10 +16,7 @@ public class productTest {
 		double price=sc.nextDouble();
 		
 		product p2=new product(productId,name,details,price);
-		System.out.println(p2.showDetails());
-		
-
+		System.out.println(p2.showDetails());	
 	}
-
 }
 
